@@ -10,7 +10,7 @@
 			"modified": "2020-07-22T17:30:51.893Z"
 		},
 		{
-			"id": "observed-data--940d4125-1b47-4864-a890-c1e6a45d6e19",
+			"id": "observed-data--940d4135-1b47-4864-a890-c1e6a45d6e19",
 			"number_observed": 1,
 			"first_observed": "2020-06-019T20:04:36.087731Z",
 			"last_observed": "2020-06-019T20:04:36.087731Z",
@@ -48,7 +48,7 @@
 			"type": "observed-data"
 		},
 		{
-			"id": "observed-data--b30de31a-8f83-4579-a747-681c93f849e5",
+			"id": "observed-data--b30de31a-8f83-4539-a747-681c93f849e5",
 			"number_observed": 1,
 			"first_observed": "2020-05-02T03:17:42.168314Z",
 			"last_observed": "2020-05-02T03:17:42.168314Z",
