@@ -1,153 +1,121 @@
 {
-	"id": "bundle--776093fe-c761-4d7e-82d8-d64380491754",
-	"spec_version": "2.0",
-	"objects": [{
-			"name": "Carbon_Black_BLM",
-			"identity_class": "events",
-			"type": "identity",
-			"id": "identity--c3bd2c0d-b311-4fb9-916b-ff8dbd2aa237",
-			"created": "2020-07-22T17:30:51.893Z",
-			"modified": "2020-07-22T17:30:51.893Z"
-		},
-		{
-			"id": "observed-data--940d4135-1b47-4864-a890-c1e6a45d6e19",
-			"number_observed": 1,
-			"first_observed": "2020-06-019T20:04:36.087731Z",
-			"last_observed": "2020-06-019T20:04:36.087731Z",
-			"created": "2020-04-05T20:04:36.087Z",
-			"modified": "2020-04-05T20:04:36.087Z",
-			"objects": {
-				"0": {
-					"value": "192.168.31.77",
-					"type": "ipv4-addr"
-				},
-				"1": {
-					"name": "uiete-imbrogli-megabyt.tpf",
-					"hashes": {
-						"SHA-256": "35e1f022861474407246f0c66218a83019381e8745e4c6b294cf150f401c16dc"
-					},
-					"type": "file"
-				},
-				"2": {
-					"value": "shmbidgp.mons2ter",
-					"type": "url"
-				},
-				"3": {
-					"user_id": "Admin_SAP",
-					"type": "user-account"
-				},
-				"4": {
-					"value": "CC:46:D6:f2:45:38",
-					"type": "mac-addr"
-				},
-				"5": {
-					"value": "125-65-202-82.hicoria.com",
-					"type": "domain-name"
-				}
-			},
-			"type": "observed-data"
-		},
-		{
-			"id": "observed-data--b30de31a-8f83-4539-a747-681c93f849e5",
-			"number_observed": 1,
-			"first_observed": "2020-05-02T03:17:42.168314Z",
-			"last_observed": "2020-05-02T03:17:42.168314Z",
-			"created": "2020-05-02T03:17:42.168Z",
-			"modified": "2020-05-02T03:17:42.168Z",
-			"objects": {
-				"0": {
-					"value": "82.202.65.125",
-					"type": "ipv4-addr"
-				},
-				"1": {
-					"name": "opiou.pcb",
-					"hashes": {
-						"SHA-256": "c269cbffec913fe22458ebaf05a0b70fdd339f39123c9809c4997bb40107a73f"
-					},
-					"type": "file"
-				},
-				"2": {
-					"value": "shmbidgp.monster",
-					"type": "url"
-				},
-				"3": {
-					"user_id": "verea",
-					"type": "user-account"
-				},
-				"4": {
-					"value": "CC:46:D6:72:04:08",
-					"type": "mac-addr"
-				},
-				"5": {
-					"value": "nterceptor.shia",
-					"type": "domain-name"
-				}
-			},
-			"type": "observed-data"
-		},
-		{
-			"_id": "d519e525faa865906952dc2f9429b871",
-			"_rev": "1-79db0af06ea2e725f96f3e4084d0d778",
-			"id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea1",
-			"type": "observed-data",
-			"created_by_ref": "identity--cdf7df10-96f2-4571-ab99-0583297f421f",
-			"created": "2020-01-20T17:19:32.138Z",
-			"modified": "2020-01-20T17:19:32.138Z",
-			"objects": {
-				"0": {
-					"type": "ipv4-addr",
-					"value": "192.168.1.108",
-					"resolves_to_refs": "2"
-				},
-				"1": {
-					"type": "network-traffic",
-					"src_ref": "0",
-					"src_port": 0,
-					"dst_ref": "3",
-					"dst_port": 0,
-					"protocols": [
-						"reserved"
-					]
-				},
-				"2": {
-					"type": "mac-addr",
-					"value": "00:00:00:00:00:00"
-				},
-				"3": {
-					"type": "ipv4-addr",
-					"value": "82.202.65.125",
-					"resolves_to_refs": "4"
-				},
-				"4": {
-					"type": "mac-addr",
-					"value": "00:00:00:00:00:00"
-				},
-				"5": {
-					"type": "user-account",
-					"user_id": "TodHamilton"
-				},
-				"6": {
-					"type": "file",
-					"name": "WireTransferCredentials"
-				},
-				"9": {
-					"type": "domain",
-					"path": "Executive0365.com"
-				},
-				"10": {
-					"type": "artifact",
-					"payload_bin": "localhost:accountId:911534260404,accessKeyId:ASIA5IO5NAC2OIBXQ4NY,userName:ADMIN,sessionContext:{attributes:{mfaAuthenticated:false,creationDate:2018-09-28T13:40:25Z}},invokedBy:Daniel},eventTime:2018-06-09T21:08:04Z,eventSource:s3.amazonaws.com,eventName:GetObject,awsRegion:us-west-2,sourceIPAddress:67.229.97.229,userAgent:[aws-cli/1.15.57 Python/2.7.14+ Linux/4.15.0-kali2-amd64 botocore/1.10.56],requestParameters:{X-Amz-Date:20180609T210803Z,bucketName:db_backups2032,response-content-disposition:inline,X-Amz-Algorithm:AWS4-HMAC-SHA256,X-Amz-SignedHeaders:host,X-Amz-Expires:300,key:ExecutiveCredentials.dump,responseElements:null,additionalEventData:{x-amz-id-2:aOFvDQjetBtTbrR6zfhmvFJEFS1dOdmSucSEVzd70yIwpLg6pSCalFewtoVchOzcSLKQswDjlAQ=},requestID:4D551A01693DE04D,eventID:73de1499-c6d0-4faa-84b3-f19f607a7a8d,readOnly:true,resources:[{type:AWS::S3::Object,ARN:arn:aws:s3:::mystorage2007/fullDB_dump30102018.dump},{accountId:911534260404,type:AWS::S3::Bucket,ARN:arn:aws:s3:::db_backups2032}],eventType:AwsApiCall,recipientAccountId:911534260404"
-				}
-			},
-			"x_com_ibm_ariel": {
-				"qid_name": "Object Downloaded",
-				"category_name": "Exchange Server Message",
-				"log_source_name": "Microsoft Exchange"
-			},
-			"first_observed": "2020-01-20T16:42:58.140Z",
-			"last_observed": "2020-01-20T16:42:58.140Z",
-			"number_observed": 1
-		}
-
-	]
+    "type": "bundle",
+    "id": "bundle--936071be-0427-4880-a7e6-7cb3c3a9d73c",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--d232b1aa-2cae-4c1f-a91c-1db6e9e4ec6a",
+            "created": "2022-03-04T17:56:31.858Z",
+            "modified": "2022-03-04T17:56:31.858Z",
+            "name": "splunk",
+            "identity_class": "system"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--32370d49-a7c4-4370-8715-6603f5a54b04",
+            "created": "2022-03-04T17:56:31.860Z",
+            "modified": "2022-03-04T17:56:31.860Z",
+            "first_observed": "2022-03-04T11:57:35.843211Z",
+            "last_observed": "2022-03-04T11:57:35.843211Z",
+            "number_observed": 6,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60"
+                },
+                "1": {
+                    "type": "url",
+                    "value": "shmbidgp.monster"
+                },
+                "2": {
+                    "type": "domain-name",
+                    "value": "team.stagingapps.xyz"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "80.153.75.103"
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "3",
+                    "src_port": 50239,
+                    "dst_port": 443,
+                    "protocols": [
+                        "https"
+                    ]
+                },
+                "5": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "6"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "6": {
+                    "type": "x-oca-asset",
+                    "hostname": "workstation1.sg2.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--4fc89143-2b70-4ee1-a1f1-f6f8d3b08bff",
+            "created": "2022-03-04T17:56:31.863Z",
+            "modified": "2022-03-04T17:56:31.863Z",
+            "first_observed": "2022-03-04T11:58:20.843484Z",
+            "last_observed": "2022-03-04T11:58:20.843484Z",
+            "number_observed": 6,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.60"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "80.153.75.103"
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "3",
+                    "src_port": 6667,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "5": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "6"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "6": {
+                    "type": "x-oca-asset",
+                    "hostname": "workstation1.sg2.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        }
+    ]
 }
